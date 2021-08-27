@@ -14,9 +14,6 @@ body img{
     height: 300px;
     border-radius: 100px;
 }
-.p1{
-    float: left;
-}
 .aboutauthor{
     text-align: center;
     font-size: 50px;
@@ -26,6 +23,8 @@ body img{
     margin-top: 10px;
     font-family: 'Courier New', Courier;
 }
+    
+
 .authorpara{
     font-size: 20px;
     color: white;
@@ -33,5 +32,4 @@ body img{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
     margin-top: -100px;
-
 }
