@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(236, 134, 134);
+    background-color: rgb(58, 58, 58);
 }
 body h1{
     background-color: rgb(78, 169, 175);
@@ -13,24 +13,26 @@ body img{
     padding: auto;
     height: 300px;
     border-radius: 100px;
+    text-align: right;
 }
 .aboutauthor{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 500;
     margin-top: 10px;
     font-family: 'Courier New', Courier;
 }
 .authorpara{
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
     margin-top: -100px;
     background-color: black;
-    border: 20px solid green;
+    border: 2px solid rgb(131, 131, 131);
+    position: absolute;
     
 }
