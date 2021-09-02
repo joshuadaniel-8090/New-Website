@@ -1,5 +1,12 @@
+head{
+    background-color: black;
+}
 body{
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(2, 59, 73);
+    background-image: url(/sc/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 body h1{
     background-color: rgb(78, 169, 175);
@@ -8,29 +15,32 @@ body h1{
     margin: auto;
     text-transform: capitalize;
 }
-body img{
+.homepageimg{
+    width: 1340px;
+}
+.imgdaniel{
     float: left;
     padding: auto;
     height: 300px;
     border-radius: 100px;
-    text-align: right;
 }
-.aboutauthor{
+.aboutjoshua{
     text-align: center;
     font-size: 45px;
     padding: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(105, 214, 32);
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 100px;
     font-family: 'Courier New', Courier;
 }
 body p{
     font-size: 25px;
+    fill-rule: initial;
     color: rgb(8, 6, 6);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
-    margin-top: -100px;
+    margin-top: 500px;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(131, 131, 131);   
     position: absolute;
