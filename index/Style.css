@@ -6,17 +6,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 2500px;
+    width: 100px;
 }
 body h1{
     color: chartreuse;
     text-align: center;
     padding: 20px;
-    margin: auto;
+    margin-top: 10000px;
+    margin-left: 8000px;
     text-transform: capitalize;
 }
 .homepageimg{
-    width: 1340px;
-    height: 650px;
+    width: 1348px;
+    height: 620px;
+    margin-top: -8px;
+    margin-left: -8px;
 }
 .imgdaniel{
     float: left;
@@ -30,7 +34,7 @@ body h1{
     padding: 10px;
     color: rgb(105, 214, 32);
     font-weight: 500;
-    margin-top: 100px;
+    margin-top: 10px;
     font-family: 'Courier New', Courier;
 }
 .aboutpara{
