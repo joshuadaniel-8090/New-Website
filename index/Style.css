@@ -1,10 +1,30 @@
-
+header{
+    height: 80px;
+    border: 5px solid rgb(94, 191, 255);
+    border-radius: 30px;
+    width: 1337px;
+    margin-left: -8px;
+    margin-top: -7px;
+    background-color: rgb(162, 255, 219);
+    color: blanchedalmond;
+    font-size: 20px;
+    text-rendering: optimizeSpeed;
+}
+.logo{
+    height: 75px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+header p{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 32px;
+}
 body{
     background-color: rgb(94, 94, 94);
     background-image: url(/sc/background.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 2500px;
     width: 100px;
 }
@@ -14,7 +34,6 @@ body h1{
     padding: 20px;
     margin-top: 10000px;
     margin-left: 8000px;
-    text-transform: capitalize;
 }
 .homepageimg{
     width: 1348px;
@@ -23,18 +42,19 @@ body h1{
     margin-left: -8px;
 }
 .imgdaniel{
-    float: left;
-    padding: auto;
-    height: 300px;
+    height: 250px;
+    margin-top: 35px;
+    margin-left: 20px;
     border-radius: 100px;
 }
 .aboutjoshua{
     text-align: center;
     font-size: 45px;
     padding: 10px;
-    color: rgb(105, 214, 32);
-    font-weight: 500;
-    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-top: 130px;
+    margin-left: 650px;
     font-family: 'Courier New', Courier;
 }
 .aboutpara{
@@ -44,18 +64,17 @@ body h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
-    margin-top: -100px;
-    margin-left: 400px;
+    margin-top: -150px;
+    margin-left: 350px;
     width: 850px;
     height: 150px;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(131, 131, 131);   
     border-radius: 30px;
-    scroll-behavior: smooth;
 }
 .wedo{
     font-size: 25px;
-    width: 1340px;
+    width: 1335px;
     fill-rule: initial;
     color: rgb(163, 163, 163);
     text-align: center;
@@ -65,7 +84,6 @@ body h1{
     background-color: rgb(56, 56, 56);
     border: 2px solid rgb(131, 131, 131);   
     border-radius: 30px;    
-    scroll-behavior: smooth;
 }
 .web{
     font-size: 25px;
