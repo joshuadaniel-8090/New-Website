@@ -1,93 +1,135 @@
-header{
-    height: 80px;
-    border: 5px solid rgb(94, 191, 255);
-    border-radius: 30px;
-    width: 1337px;
-    margin-left: -8px;
-    margin-top: -7px;
-    background-color: rgb(162, 255, 219);
-    color: blanchedalmond;
-    font-size: 20px;
-    text-rendering: optimizeSpeed;
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	transition: 0.3s;
 }
 .logo{
-    height: 75px;
-    width: 150px;
-    border-radius: 20px;
-    margin-top: 2px;
-    margin-left: 3px;
+	height: 80px;
+	width: 140px;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 10px;
 }
-header p{
-    margin-left: 50px;
-    margin-top: 15px;
-    font-size: 32px;
+li, a, button{
+	font-family: monospace;
+	font-weight: 500;
+	font-size: 16px;
+	color: cornsilk;
+	text-decoration: none;
 }
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0%;
+	background-color: rgb(0, 0, 0);
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    /*Opacity end*/
+}
+.nav_links{
+	list-style: none;
+}
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+	color: cyan;
+}
+button{
+	padding: 9px 25px;
+	background-color: rgb(0, 241, 109);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+button:hover{
+	background-color: rgba(74, 255, 156, 0.5);
+}
+.sticky {
+	position: fixed;
+	height: 80px;
+	top: 0;
+	width: 100%;
+  }
+
+
+
+
+
+
+
+
 body{
-    background-color: rgb(94, 94, 94);
-    background-image: url(/sc/background.jpeg);
-    height: 2500px;
-    width: 100px;
+	background-color: rgb(94, 94, 94);
+	background-image: url(/sc/background.jpeg);
+	width: 1349px;
+	height: 1100px;
 }
+
 body h1{
-    color: chartreuse;
-    text-align: center;
-    padding: 20px;
-    margin-top: 10000px;
-    margin-left: 8000px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 100px;
+	margin-left: 800px;
 }
+
 .homepageimg{
-    width: 1348px;
-    height: 620px;
-    margin-top: -8px;
-    margin-left: -8px;
+	width: 1356px;
+	height: 620px;
+	margin-top: -2px;
+	margin-left: -8px;
 }
 .imgdaniel{
-    height: 250px;
-    margin-top: 35px;
-    margin-left: 20px;
-    border-radius: 100px;
+	height: 250px;
+	margin-top: 35px;
+	margin-left: 20px;
+	border-radius: 100px;
 }
-.aboutjoshua{
-    text-align: center;
-    font-size: 45px;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    font-weight: 800;
-    margin-top: 130px;
-    margin-left: 650px;
-    font-family: 'Courier New', Courier;
+.aboutus{
+	text-align: center;
+	font-size: 45px;
+	padding: 0;
+	margin-left: 200px;
+	margin-top: -250px;
 }
+
 .aboutpara{
-    font-size: 25px;
-    fill-rule: initial;
-    color: rgb(8, 6, 6);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 550;
-    margin-top: -150px;
-    margin-left: 350px;
-    width: 850px;
-    height: 150px;
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(131, 131, 131);   
-    border-radius: 30px;
+	font-size: 25px;
+	fill-rule: initial;
+	color: rgb(8, 6, 6);
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 550;
+	margin-top: 20px;
+	margin-left: 350px;
+	width: 850px;
+	height: 150px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(131, 131, 131);   
+	border-radius: 30px;
 }
 .wedo{
-    font-size: 25px;
-    width: 1335px;
-    fill-rule: initial;
-    color: rgb(163, 163, 163);
-    text-align: center;
-    font-family: cursive;
-    font-weight: 550;
-    margin-top: 100px;
-    background-color: rgb(56, 56, 56);
-    border: 2px solid rgb(131, 131, 131);   
-    border-radius: 30px;    
-}
-.web{
-    font-size: 25px;
-    color: yellow;
-    margin-right: 900px;
-    margin-top: 100px;
+	font-size: 25px;
+	width: 1338px;
+	color: rgb(163, 163, 163);
+	text-align: center;
+	font-family: cursive;
+	font-weight: 550;
+	margin-top: 100px;
+	margin-left: 5px;
+	background-color: rgb(56, 56, 56);
+	border: 1px solid rgb(131, 131, 131);   
+	border-radius: 30px;    
 }
