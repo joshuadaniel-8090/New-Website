@@ -24,7 +24,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 0%;
-	background-color: rgb(0, 0, 0);
+    background-color: black;
     /*Opacity start*/
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=80);
@@ -32,6 +32,14 @@ header{
     -khtml-opacity: 0.8;
     opacity: 0.8;
     /*Opacity end*/
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
 }
 .nav_links{
 	list-style: none;
@@ -74,7 +82,7 @@ button:hover{
 body{
 	background-color: rgb(94, 94, 94);
 	background-image: url(/sc/background.jpeg);
-	width: 1349px;
+	width: 1049px;
 	height: 1800px;
 }
 
@@ -86,8 +94,8 @@ body h1{
 }
 
 .homepageimg{
-	width: 1356px;
-	height: 620px;
+	width: 1234px;
+	height: 670px;
 	margin-top: -2px;
 	margin-left: -8px;
 }
@@ -123,7 +131,7 @@ body h1{
 }
 .wedo{
 	font-size: 25px;
-	width: 1338px;
+	width: 1221px;
 	color: rgb(163, 163, 163);
 	text-align: center;
 	font-family: cursive;
