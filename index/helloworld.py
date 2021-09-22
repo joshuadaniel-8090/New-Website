@@ -1,1 +1,3 @@
-print('hello world')
+
+a=input('enter a muber:')
+print(a)
