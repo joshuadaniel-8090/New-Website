@@ -133,21 +133,27 @@ body h1{
 	display: flex;
 	justify-content: center;
 	width: 1240px;
-	margin-left: 80px;
+	margin-left: 60px;
 	font-size: 30px;
 	margin-top: 50px;
-	color: yellow;
+	color: rgb(0, 195, 255);
 }
 .webdev{
+	height: 400px;
+	width: 500px;
 	padding: 50px;
-	border-radius: 20px;
-	padding-bottom: 200px;
-	border: 6px solid rgb(53, 53, 53);   
-}
-.appdev{
-	padding: 50px;
+	text-align: center;
 	border-radius: 20px;
 	padding-bottom: 200px;
 	border: 6px solid rgb(53, 53, 53);
-    margin-left: 300px;
+}
+.appdev{
+	height: 400px;
+	width: 500px;
+	padding: 50px;
+	text-align: center;
+	border-radius: 20px;
+	padding-bottom: 200px;
+	border: 6px solid rgb(53, 53, 53);
+    margin-left: 200px;
 }
