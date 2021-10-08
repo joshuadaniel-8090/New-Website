@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
-	transition: 0.3s;
+	transition: 0s;
 }
 .logo{
 	height: 80px;
@@ -26,8 +26,8 @@ header{
 	padding: 10px 0%;
     background-color: black;
     /*Opacity start*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    filter: alpha(opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
     -moz-opacity: 0.80;
     -khtml-opacity: 0.8;
     opacity: 0.8;
@@ -37,7 +37,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 90px;
     padding: 0;
     margin: 0;
 }
@@ -94,7 +94,7 @@ body h1{
 }
 
 .homepageimg{
-	width: 1234px;
+	width: 1356px;
 	height: 670px;
 	margin-top: -2px;
 	margin-left: -8px;
@@ -110,7 +110,7 @@ body h1{
 	text-align: center;
 	font-size: 45px;
 	padding: 0;
-	margin-left: 200px;
+	margin-left: 475px;
 	margin-top: -250px;
 }
 
@@ -123,35 +123,31 @@ body h1{
 	font-weight: 550;
 	margin-top: 20px;
 	margin-left: 350px;
-	width: 850px;
+	width: 960px;
 	height: 150px;
 	background-color: rgb(255, 255, 255);
 	border: 2px solid rgb(131, 131, 131);   
 	border-radius: 30px;
 }
-.wedo{
-	font-size: 25px;
-	width: 1221px;
-	color: rgb(163, 163, 163);
-	text-align: center;
-	font-family: cursive;
-	font-weight: 550;
-	margin-top: 100px;
-	margin-left: 5px;
-	background-color: rgb(56, 56, 56);
-	border: 1px solid rgb(131, 131, 131);   
-	border-radius: 30px;
-}
-span{
+.services{
+	display: flex;
+	justify-content: center;
+	width: 1240px;
+	margin-left: 80px;
 	font-size: 30px;
+	margin-top: 50px;
 	color: yellow;
-	align-items: center;
-	justify-content: space-between;
-	align-items: center;
 }
-.python{
-	margin-top: 8000px;
-	font-size: 40px;
-	margin-left: 300px;
+.webdev{
+	padding: 50px;
+	border-radius: 20px;
+	padding-bottom: 200px;
+	border: 6px solid rgb(53, 53, 53);   
 }
-
+.appdev{
+	padding: 50px;
+	border-radius: 20px;
+	padding-bottom: 200px;
+	border: 6px solid rgb(53, 53, 53);
+    margin-left: 300px;
+}
